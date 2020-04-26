@@ -1,0 +1,347 @@
+body{
+     padding: 0;
+    margin: 0;
+    
+    background-image: url(https://d3m9l0v76dty0.cloudfront.net/system/photos/3412061/large/c1665f388d4b7d3767f4538ce2a38a44.jpg);
+}
+*{
+    box-sizing: border-box;
+}
+
+.header{
+   width: 90%;
+    height: 60px;
+    position: fixed;
+    margin-right: 8%;
+    z-index: 3;
+  
+}
+.mystore{
+    color: #171415f0;
+    float: left;
+     margin-top: 18px;
+    margin-left: 9%; 
+    margin-right: 8%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 30px;
+    padding: 3px;   
+}
+.mystore:hover{
+    border:10px solid #D3D3D3;
+   
+}
+ .order button{
+    color: black ;
+    border-radius: 10px;
+    background-color: white;
+     float: right;
+     height: 40px;
+     width: 120px;
+     margin-left: 2px;
+     margin-top: 10px;
+     margin-right: 5px;
+     
+}
+.order button a{
+text-decoration: none ;
+    color: black;
+     
+}
+.order button:hover{
+   color :black;
+    border:2px solid pink;
+   text-shadow: 1px 5px 2px pink;
+    background-color: darkgray;
+     transform:scale(1.2) ;
+}
+.s1{
+    height:900px;
+    width: 100%;
+}
+.s1 .Love{
+       margin: 20px 3.1%;
+    height: 385px;
+    position: relative;
+    width: 26%;
+    float: left;
+   transform-style: preserve-3d;
+    transition: all .50s ease-in-out ;
+    
+}
+.s1 .Love:hover{
+      transform: rotateY(180deg);
+}
+#i1{
+    background-image: url(backgroud-box/bac1.jpg);
+    background-size: 100% 100%;
+}
+#i2{
+    background-image: url(backgroud-box/bac2.jpg);
+     background-size: 100% 100%;
+}
+#i3{
+    background-image: url(backgroud-box/bac3.jpg);
+     background-size: 100% 100%;
+}
+#i4{
+    background-image: url(backgroud-box/bac4.jpg);
+     background-size: 100% 100%;
+}
+#i5{
+    background-image: url(backgroud-box/bac5.jpg);
+     background-size: 100% 100%;
+}
+#i6{
+    background-image: url(backgroud-box/bac6.png);
+     background-size: 100% 100%;
+}
+.s1 .item{
+  position: absolute;
+    height: 385px;
+    width: 100%;
+    border-radius: 67px;
+    z-index: 1;
+    background-image: url(https://www.yo-yoo.co.il/coolpics/images/uploads/68fbcf.jpg);
+   
+     backface-visibility: hidden;
+    transform: rotateY(180deg);
+    /* margin-left: 0;*/
+}
+.s1 .img-item{
+    position: absolute;
+    height: 385px;
+    width: 100%;
+    z-index: 2;
+    border-radius: 67px;
+    backface-visibility: hidden;
+    
+}
+.s1 .img-item img{
+    height: 385px;
+    width: 100%;
+    border-radius: 67px; 
+}
+.s1 .img-item img:hover{
+    height: 385px;
+    width: 100%;
+    border-radius: 67px; 
+}
+
+
+.s1 .title{
+   font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 7px -11px 15px red;
+}
+.item .name{
+      width: 70%;
+    height: 7%;
+    background-color: white;
+    padding: 4px 0px 0px 7px;
+    border-radius: 20px;
+    margin: 5% auto 0;
+}
+.item .name span{
+    color: #f50456;
+  
+}
+.item .price{
+     width: 70%;
+    height: 7%;
+    background-color: white;
+    padding: 4px 0px 0px 7px;
+    border-radius: 20px;
+    margin: 5% auto 0;
+}
+.item .description{;
+   width: 70%;
+    height: 40%;
+    background-color: white;
+    padding: 4px 0px 0px 10px;
+    font-family: serif;
+    border-radius: 20px;
+    margin: 5% auto 0;
+    word-wrap: break-word;
+    word-spacing: 3px;
+}
+.item .cart{
+       width: 70%;
+    height: 16%;
+    background-color: #F8F8F8;
+    padding: 4px 0px 0px 7px;
+    border-radius: 20px;
+    margin: 5% auto 0;
+    
+}
+.item .cart button{
+    color: white;
+    background-color: #606060;
+    height: 30px;
+    width: 70%x;
+    margin: 10px 0px 0px 20px;
+    border-radius: 10px;
+}
+
+.s2{
+     height: 1070px;
+    margin: 0 8%;
+}
+.s2 .MyStory{
+    margin:  0 4% 0 1.5%;
+    height: 350px;
+    word-wrap: break-word;
+    border:5px outset black;
+     border-radius: 150px ;
+     padding: 20px;
+
+}
+.s2 .MyStory:hover{
+   transform: scale(1.0001);
+    background-color: forestgreen;
+ border:25px outset #FFFAF0;
+    padding: 20px;
+}
+.s2 .MyStory h1{
+   text-align: center;
+}
+
+.s2 .MyStory p{
+   word-spacing: 5px;
+    text-align: center;
+}
+.s2 .MyStory p{
+   word-spacing: 5px;
+    text-align: center;
+}
+.s2 .MyStory p span{
+   color:red;
+    font-family: cursive;
+}
+.s2 .iframe{
+    margin:  0 2% 0 1.5%;
+    height: 400px;
+    width: 94%;
+ border-radius: 10px ;
+
+
+}
+.s2 .social{
+    height: 63px;
+      margin: 2px 2% 0 6.5%;
+    padding: 0 0 0 30%;
+}
+
+.s2 .social .img {
+    float: left;
+    margin: 0 0 0 20px;
+    height: 60px; width: 60px;
+    opacity: 0.9;
+    border-radius: 30%;
+}
+.s2 .social .img:hover{
+   transform:scale(1.2) ;
+    opacity: 1;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+    height: 200px;
+   background-color: #F08080;
+         border-radius: 10px ;
+    
+}
+
+th, td {
+  text-align: left;
+  border-bottom: 1px solid #808080;
+    color: white;
+    padding: 10px 10px;
+      
+}
+.branches  tbody tr:nth-child(odd){
+    background-color: #30c1b48f;
+}
+.s3{
+    height: 600px;
+    margin: 40 2% 0 2%; 
+}
+input{
+    width:85% ; height: 40px;
+    margin-left: 6% ;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    border-radius: 10px ;
+}
+.submit{
+    width:50% ; height: 40px;
+    margin-left: 6% ;
+    margin-bottom: 20px; 
+    padding-left: 5px;
+    border-radius: 10px ;
+     
+    
+}
+.reset{
+  width:50% ; height: 40px;
+    margin-left: 6% ;
+    margin-bottom: 20px; 
+    padding-left: 5px;
+    border-radius: 10px ;
+
+}
+
+textarea{
+    width: 85%;
+    max-width: 85%;
+    max-height: 100px;
+    margin-bottom: 20px;
+     height: 60px;
+    margin-left: 6% ;
+    border-radius: 10px;
+    resize: vertical;
+}
+.s3 .contact{
+    height:70px;
+    margin-left: 6%;
+    
+}
+.s3 .contact .con{
+    font-family: cursive;
+    font-size: 19px;
+    
+}
+#Mail{
+        margin-left: 7%;
+     font-family: cursive;
+    font-size: 19px;
+
+}
+footer{
+    height: 50px;
+    background-color: #4f5654;
+    padding-top:20px ;
+}
+footer div{
+    margin: 0 auto;
+    width: 30%;
+    color: white;
+    font-weight: bold;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+footer span{
+    color: black;
+}
+
+
+
+
+
